@@ -5,6 +5,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import IndividualSelf from './Pages/IndividualSelf';
+import IndividualGraph from './Pages/IndividualGraph';
 //import Home from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,6 +14,8 @@ root.render(
       <Routes>
         <Route path="/" element={<App />}/>
           <Route path="individual-shelf" element={<IndividualSelf />} />
+          <Route path="individual-graph" element={<IndividualGraph />} />
+
       </Routes>
     </BrowserRouter>
 );
