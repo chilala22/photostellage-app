@@ -5,7 +5,6 @@ function AppAlert() {
     <>
           <div className="col-span-5 row-span-9 bg-base-300 rounded-box place-items-center w-full">
           <div className="relative flex  rounded-lg justify-start items-center text-center max-w-prose h-1/3 m-4  shadow-xl bg-gray-200">
-          <img src='/Images/flowers1.jpg' className='object-fill h-full w-full'></img>
               </div>
               <p>ОПОВЕЩЕНИЯ </p>
 
