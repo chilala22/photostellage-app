@@ -15,7 +15,7 @@ function IndividualGraph() {
                 <div className=" h-10 rounded-lg flex-1 w-1/2  justify-start items-end text-center ">
                   <ul className="menu md">
                     <li>
-                      <details open>
+                      <details>
                         <summary>График 1</summary>
                         <ul className="z-50  text-blue-950">
                           <li>
@@ -32,7 +32,7 @@ function IndividualGraph() {
                 <div className=" h-10 rounded-lg flex-none w-1/2  justify-start items-end text-center ">
                   <ul className="menu md ">
                     <li>
-                      <details open>
+                      <details>
                         <summary>Параметр 1</summary>
                         <ul className="z-50  text-blue-950">
                           <li>
