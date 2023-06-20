@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import IndividualSelf from './Pages/IndividualSelf';
 import IndividualGraph from './Pages/IndividualGraph';
 import ShelfStatistics from './Pages/ShelfStatistics';
+import GraphCalendar from './components/GraphCalendar';
 //import Home from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,6 +18,9 @@ root.render(
           <Route path="individual-shelf" element={<IndividualSelf />} />
           <Route path="individual-graph" element={<IndividualGraph />} />
           <Route path="shelf-statistics" element={<ShelfStatistics />} />
+          <Route path="graph-calendar" element={<GraphCalendar />} />
+
+
 
 
       </Routes>

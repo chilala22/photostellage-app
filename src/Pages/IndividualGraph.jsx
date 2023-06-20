@@ -1,6 +1,7 @@
 import React from "react";
 import AppHeader from "../components/AppHeader";
 import AppMenu from "../components/AppMenu";
+import GraphCalendar from "../components/GraphCalendar";
 
 function IndividualGraph() {
   return (
@@ -10,7 +11,7 @@ function IndividualGraph() {
         <div className="flex">
           <AppMenu />
           <div className="grid grid-cols-12 grid-rows-12 gap-2 grow">
-            <div className="col-span-5 row-span-9 bg-base-300 rounded-box place-items-center w-full">
+            <div className="col-span-3 row-span-9 bg-base-300 rounded-box place-items-center w-full">
               <div className="relative flex justify-center items-center ">
                 <div className=" h-10 rounded-lg flex-1 w-1/2  justify-start items-end text-center ">
                   <ul className="menu md">
@@ -47,7 +48,7 @@ function IndividualGraph() {
                   </ul>
                 </div>
               </div>
-              <div className="rounded-lg w-11/12 h-40 m-10 my-5  shadow-xl bg-gray-200 text-blue-950">
+              <div className="rounded-lg w-11/12 h-40 m-4 shadow-xl bg-gray-200 text-blue-950">
                 <div className="flex flex-col w-full">
                   <div className="grid h-14 place-items-center shadow-xl">
                     Примененные фильтры:
@@ -57,7 +58,7 @@ function IndividualGraph() {
                   </div>
                 </div>
               </div>
-              <div className="rounded-lg w-11/12 h-40 m-10 my-5  shadow-xl bg-gray-200 text-blue-950">
+              <div className="rounded-lg w-11/12 h-40 m-4 shadow-xl bg-gray-200 text-blue-950">
                 <div className="flex flex-col w-full">
                   <div className="grid h-14 place-items-center shadow-xl">
                     Примененные фильтры:
@@ -68,12 +69,12 @@ function IndividualGraph() {
                 </div>
               </div>
 
-              <div className="rounded-lg w-11/12 h-56 m-10 my-5  shadow-xl bg-gray-200 text-blue-950">
-
+              <div className="rounded-lg w-11/12 h-80 m-4  shadow-xl bg-gray-200 text-blue-950">
+                <GraphCalendar/>
               </div>
             </div>
 
-            <div className="col-span-7 row-span-9 col-start-6 bg-base-300 rounded-box place-items-center w-full">
+            <div className="col-span-9 row-span-9 col-start-4 bg-base-300 rounded-box place-items-center w-full">
               <div className="col-span-12 row-span-4 row-start-1 rounded-lg bg-base-300 ">
                 <div className="relative flex justify-center items-center ">
                   <div className="w-1/2 h-10 bg-gray-400 text-start font-bold rounded-lg text-blue-950 flex-1  m-2 p-2 shadow-xl">
@@ -91,7 +92,7 @@ function IndividualGraph() {
                   <p />
                   ГРАФИК 1
                 </div>
-                <div className="relative flex  rounded-lg justify-center items-center text-center w-11/12 h-36 m-5 ml-10  shadow-xl bg-gray-200">
+                <div className="relative flex  rounded-lg justify-center items-center text-center w-11/12 h-60 m-5 ml-10  shadow-xl bg-gray-200">
                   <p />
                   Доп. информация:
                 </div>
